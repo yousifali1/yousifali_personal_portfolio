@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Yousif Ali - Personal Portfolio </title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style_v2.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="blob-outer-container">
+    <div class="blob-inner-container">
+      <div class="blob"></div>
+    </div>
+  </div>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure >
+          <img src="./assets/images/myPersonalLogo_whitev2.svg" alt="Yousif Ali" width="100">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Name">Yousif Ali</h1>
+
+          <p class="title">Automation and Control Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">yousifali.work@outlook.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+201149479345" class="contact-link">+20 1149479345</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Cairo, Egypt</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yousif-ali-41968b104/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.behance.net/yoosefali9" target="_blank" class="social-link">
+              <ion-icon name="logo-behance"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <div class="about-container">
+          <section class="about-text">
+            <div class="about-intro">
+              <h3 class="greeting">Hi 👋, I'm <span class="highlight-name">Yousif Ali</span></h3>
+              <p class="welcome-text">Welcome to my portfolio</p>
+            </div>
+
+            <p class="lead-paragraph">
+              I am an <strong>Automation and Control Engineer</strong> with a passion for building intelligent and reliable industrial systems. 
+              My experience spans PLC and SCADA development, Python-based backend integration, 
+              and SQL data management for real-time control and monitoring.
+            </p>
+
+            <p>
+              My journey began with a deep interest in <strong>motion control</strong> during my graduation project—developing a 
+              control system for a prosthetic foot testing machine. That project sparked my dedication to combining 
+              hardware, software, and data to create smarter automation systems.
+            </p>
+
+            <p>
+              Currently, I work at <strong>HA Technology,</strong> where I design, test, and optimize 
+              <strong>PLC/SCADA systems</strong> for ready-mix automation and solar PV monitoring projects. 
+              I have built<strong> Python + FastAPI </strong>backends that connect PLCs with 
+              MS SQL Server databases , enabling data historians, alarm management, and SCADA dashboards.
+            </p>
+
+            <p class="mission-statement">
+              I am driven by the idea of integrating industrial automation with modern software technologies—turning 
+              raw machine data into actionable insights. 
+              My next goal is to deepen my expertise in <strong>SCADA platforms (like AVEVA, WinCC) and data-driven automation systems.</strong>
+            </p>
+          </section>
+
+          <div class="about-image">
+            <img src="./assets/images/about me.svg" alt="Yousif Ali" loading="lazy">
+          </div>
+        </div>
+      </article>
+      
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <div class="download-cv-container">
+            <a href="https://drive.google.com/file/d/179DyXG-1yqKUtGvMMjc-IuZ_5zPmYglV/view" target="_blank" download="Yousif_Ali_CV.pdf" class="download-cv-btn">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Download Full CV</span>
+            </a>
+          </div>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Sc. in Mechatronics Engineering </h4>
+
+              <div class="timeline-meta">  
+                <span class="timeline-item-title">Ain Shams University - Faculty of Engineering </span>
+                <span class="timeline-Location">| Cairo, Egypt</span>
+              </div>
+              <span>Oct 2018 - Jul 2024</span>
+
+              <p class="timeline-text">
+                <strong> • Graduation project: </strong>Development of control system and software for prosthetic feet testing machine according to the 
+                ISO 22675 standard. The project focused on creating a hybrid force and motion control algorithm, integrating 
+                Schneider motion drive systems and PLCs for real-time testing. <br><br><br>
+
+                <strong>• Key modules: </strong> Automatic and Hybrid Control, Industrial Automation and Networks, Hydraulics and Pneumatics 
+                Control, Sensors and Measurement Systems, Robotics and Autonomous Systems, Embedded Systems, Machine 
+                Vision, Mechatronic Systems Design, Power Electronics, Machine Elements Design, Mechanical Vibrations, Financial 
+                and Cost Accounting, Project Management. 
+              </p>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"></h4>
+
+              <span> </span>
+
+              <p class="timeline-text"><br> </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="business"></ion-icon>
+            </div>
+
+            <h3 class="h3"> Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Automation and Control Engineer </h4>
+              
+              <div class="timeline-meta">  
+                <span class="timeline-item-title">HA Technology</span>
+                <span class="timeline-Location">| Cairo, Egypt</span>
+              </div>              
+              
+              <span>Mar 2025 - Present </span>
+    
+              <ul class="custom-bullets timeline-text">
+                  <li>Develop and test PLC and SCADA systems for HA ready-mix automation software, enhancing system accuracy and process reliability.
+                    <ul>
+                      <li>Reduced batch error rate from 1% to 0.1% by implementing enhanced error-correction logic.</li>
+                      <li>Designed and deployed a Manual Mode Handler to improve recipe control and inventory tracking.</li>
+                    </ul>
+                  </li>
+                  <li>Built a Python backend for a Flutter-based SCADA desktop app, featuring:
+                    <ul>
+                      <li>Historian and alarm services for time-series and event data exchange between PLCs and MS SQL Server.</li>
+                      <li>Fast API REST endpoints to serve historical and alarm data to the SCADA user interface.</li>
+                    </ul>
+                  </li>
+                  <li>Support troubleshooting, maintenance, and system upgrades for various client projects.</li>
+                  <li>Assist in preparing technical offers for automation solutions involving Siemens PLCs and WAGO I/O systems.</li>
+                </ul>
+              </li>
+              <p class="timeline-text"><br></p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Acoustics Modeling and Simulation Engineer - DSDC </h4>
+              <div class="timeline-meta">  
+                <span class="timeline-item-title"> DSDC - Dynamic Systems & Digitalization Cluster </span>
+                <span class="timeline-Location">| Cairo, Egypt</span>
+              </div>
+
+              <span> Jul 2022 - Sep 2022</span>
+
+              <p class="timeline-text">
+                <ul class="custom-bullets">
+                    <li> Conducted literature reviews on the acoustics of ducts and mufflers, analyzing and evaluating the latest research models. </li>
+                    <li> Developed MATLAB scripts for simulating the acoustics of pod silencers, utilizing fibrous sound-absorbing materials to optimize noise reduction.</li>
+                  </ul>
+              </p>
+              <p class="timeline-text"><br></p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical Member Modeling Team - FS UK 2021</h4>
+              
+              <div class="timeline-meta">  
+                <span class="timeline-item-title"> ASU Racing Team </span>
+                <span class="timeline-Location">| Cairo, Egypt</span>
+              </div>
+              <span> Dec 2020 - May 2021 </span>
+
+              <p class="timeline-text">
+                <ul class="custom-bullets">
+                <li> Conducted vehicle dynamics modeling using ADAMS, optimizing performance for racing conditions. </li>
+                <li> Designed and modeled a high-performance braking system, improving race car efficiency.</li>
+                <li> Prepared detailed design reports and contributed to Design event, collaborating with cross-functional teams to ensure event success.</li>     
+                </ul>
+              </p>
+              <p class="timeline-text"><br></p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> </h4>
+
+              <span> </span>
+
+              <p class="timeline-text"><br><br><br> </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+
+            <h3 class="h3">ACHIEVEMENTS & AWARDS</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The Prototype of Aeolus Car - 1<sup>st</sup> place</h4>
+                
+              <div class="timeline-meta">  
+                <span class="timeline-item-title"> Design and Production Department</span>
+                <span class="timeline-Location">| Cairo, Egypt</span>
+              </div>
+              <span class="timeline-Date"> Oct 2022 - Feb 2023</span>
+              <p class="timeline-text"><br></p>
+
+            </li>
+            
+                        <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> 4 <sup>th</sup> overall worldwide, 16 <sup>th</sup> design event </h4>
+                
+              <div class="timeline-meta">  
+                <span class="timeline-item-title"> Formula student UK</span>
+                <span class="timeline-Location">| silverstone, UK</span>
+              </div>
+              <span class="timeline-Date">Dec 2020 – May 2021</span>
+              <p class="timeline-text"><br></p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> </h4>
+
+              <span> </span>
+
+              <p class="timeline-text"><br> </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+        
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="leaf"></ion-icon>
+            </div>
+
+            <h3 class="h3">VOLUNTEERING EXPERIENCE</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Designer and Branding Specialist</h4>
+                
+              <div class="timeline-meta">  
+                <span class="timeline-item-title">SSA - Sudanese students association</span>
+                <span class="timeline-Location">| Cairo, Egypt</span>
+              </div>
+              <span class="timeline-Date">Jul 2020 - Oct 2022</span>
+              <p class="timeline-text"><br></p>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Media Specialist </h4>
+              <div class="timeline-meta">  
+                <span class="timeline-item-title">Generations Care Charity Association</span>
+                <span class="timeline-Location">| Jeddah, Saudia Arabia  </span>
+              </div>
+              <span>  Feb 2018 - Feb 2019 </span>
+              <p class="timeline-text"><br></p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Graphic Designer & Project Director  </h4>
+              
+              <div class="timeline-meta">  
+                <span class="timeline-item-title"> Khayrocom Association </span>
+                <span class="timeline-Location">| Jeddah, Saudia Arabia  </span>
+              </div>
+              <span>  Feb 2018 - Feb 2019 </span>
+              <p class="timeline-text"><br></p>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> </h4>
+
+              <span> </span>
+
+              <p class="timeline-text"><br> </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Engineering Project</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphics Desing</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Engineering Project</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphics Desing</button>
+              </li>
+
+            </ul>
+
+          </div>
+          
+          <ul class="project-list">
+
+            <!-- HA-ReadyMix -->
+            <li class="project-item active" data-filter-item data-category="engineering project">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+
+                  <a href="https://drive.google.com/file/d/1pMyxkDp4huszq1kyHejGHxjETkLbY24E/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+
+                  <a href="https://youtu.be/yG_0uTRRfmk?si=kKs3XvkN-F7AC2ri" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+
+                </div>
+                <img src="./assets/images/5rasana.PNG" alt="HA-ReadyMix Software " loading="lazy">
+              </figure>
+              <h3 class="project-title">HA-ReadyMix Software</h3>
+              <div class="project-header">
+                <p class="project-category">Engineering Project</p>  
+                <h3 class="project-date"> 2025</h3>
+              </div>
+              
+              
+            </li>
+
+            <!--Prosthetic Feet Testing Machine-->
+            <li class="project-item active" data-filter-item data-category="engineering project">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <a href="https://drive.google.com/file/d/1f2DFi39MF_5xY-7GGi5O4LAAGiemV67j/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+
+                  <a href="https://youtu.be/LlisRL7ea2A" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/16c3ix4iGpXZveQh0tkmmXX_8rKorNRlh/view" aria-label=" Documentation " target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="reader" title="View Documentation"></ion-icon>
+                  </a>
+
+                </div>
+                <img src="./assets/images/GP.jpg" alt="Excavator" loading="lazy">
+              </figure>
+              
+              <h3 class="project-title">Prosthetic Feet Testing Machine</h3>
+              <div class="project-header">
+                <p class="project-category">Engineering Project</p>
+                <h3 class="project-date">2024</h3>
+              </div>
+
+            </li>
+
+            <!--Furuta Pendulum-->
+            <li class="project-item active" data-filter-item data-category="engineering project">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+
+                  <a href="https://drive.google.com/file/d/1TuWIOAmMMboq7m4AU2ELbxriOzjJ0hp7/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+
+                  <a href="https://youtu.be/dEkJ4OIVgAM" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+
+                </div>
+                <img src="./assets/images/Hybrid.jpg" alt="4-DOF Robot Manipulator" loading="lazy">
+              </figure>
+              <h3 class="project-title">Furuta Pendulum</h3>
+              
+              <div class="project-header">
+                <p class="project-category">Engineering Project</p>  
+                <h3 class="project-date"> 2023</h3>
+              </div>
+            </li>
+
+            <!--4-DOF Robot Manipulator-->
+            <li class="project-item active" data-filter-item data-category="engineering project">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+
+                  <a href="https://drive.google.com/file/d/1U_Q90H9T6mKPrjUPTOuJAUMbEQe6yqW_/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+
+                  <a href="https://youtu.be/lnP9Kl67vl8" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+
+                </div>
+                <img src="./assets/images/4 DOF.jpg" alt="4-DOF Robot Manipulator" loading="lazy">
+              </figure>
+              <h3 class="project-title">4-DOF Robot Manipulator</h3>
+              
+              <div class="project-header">
+                <p class="project-category">Engineering Project</p>  
+                <h3 class="project-date"> 2023</h3>
+              </div>
+            </li>
+
+            <!--Excavator Model Controlled by Pneumatic Cylinder-->
+            <li class="project-item active" data-filter-item data-category="engineering project">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <a href="https://drive.google.com/file/d/17R0055jxhjIcnLH83WUHwNN1-FPj-uo9/view" aria-label=" Documentation " target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="reader" title="View Documentation"></ion-icon>
+                  </a>
+                  <a href="https://drive.google.com/file/d/1za7T9_d7LNtpNY5ufPc7f4g43MIeuGuI/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+                  <a href="https://youtu.be/moAAkv7wRVk" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+                </div>
+                <img src="./assets/images/Excavator.jpg" alt="Excavator Model Controlled by Pneumatic Cylinder" loading="lazy">
+              </figure>
+              <h3 class="project-title">Excavator Model Controlled by Pneumatic Cylinder</h3>
+              <div class="project-header">
+                <p class="project-category">Engineering Project</p>  
+                <h3 class="project-date"> 2022</h3>
+              </div>
+            </li>
+
+            <!--Course Project: Industrial Automation-->
+            <li class="project-item active" data-filter-item data-category="engineering project">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+
+                  <a href="https://drive.google.com/file/d/14RYO1x6ihMVoWpzzMPptwxwOO4s4w9ub/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+
+                  <a href="https://youtu.be/0bE4V8x6yhQ" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+
+                </div>
+                <img src="./assets/images/Automation.jpg" alt="Course Project: Industrial Automation" loading="lazy">
+              </figure>
+              <h3 class="project-title">Course Project: Industrial Automation</h3>
+              <div class="project-header">
+                <p class="project-category">Engineering Project</p>  
+                <h3 class="project-date"> 2022</h3>
+              </div>
+            </li>
+
+            <!-- Generations Care Charity Association -->
+            <li class="project-item active" data-filter-item data-category="graphics desing">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+
+                  <a href="https://drive.google.com/file/d/1lzsJnqxzb1Q46DAdqf83rYZd_kKBdCZU/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+
+                  <a href="https://youtu.be/6KQyBrm8yZs?si=VNRLiwd7Ys6bSj6U" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+
+                </div>
+                <img src="./assets/images/ajyal.jpg" alt="Generations Care Charity Association" loading="lazy">
+              </figure>
+              <h3 class="project-title">Generations Care Charity Association</h3>
+
+              <div class="project-header">
+                <p class="project-category">Graphics Design</p>  
+                <h3 class="project-date"> 2018 - 2019 </h3>
+              </div>
+            </li>
+          
+            <!-- Sudanese students association at ASU -->
+            <li class="project-item active" data-filter-item data-category="graphics desing">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+
+                  <a href="https://drive.google.com/file/d/1Y6qYIyuYIEtIXBF0eX9cToPUMlKYLUA5/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+
+                  <a href="https://www.facebook.com/watch/?v=199890229695665" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+
+                </div>
+                <img src="./assets/images/SSA.jpg" alt="Generations Care Charity Association" loading="lazy">
+              </figure>
+              <h3 class="project-title">SSA - Sudanese students association at ASU </h3>
+              
+              <div class="project-header">
+                <p class="project-category">Graphics Design</p>  
+                <h3 class="project-date"> 2020 - 2022</h3>
+              </div>
+            </li>
+          
+            <!-- Khayrocom Association -->
+            <li class="project-item active" data-filter-item data-category="graphics desing">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+
+                  <a href="https://drive.google.com/file/d/1CcDj2ARpeZ1mD0BY6kBk7G_HzcNmSVE7/view" aria-label="Project Overview" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="easel"></ion-icon>
+                  </a>
+
+                  <a href="https://youtu.be/5ckSEun9Zpw?si=sbOTltLAxqv7_9tc" aria-label="Youtube Video" target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="play-circle"></ion-icon>
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/1OYdJIrX0jRPuaO2O5PTAF2HJJeiyFdrJ/view" aria-label="رحلة 120 يوم " target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="reader" title="View Documentation"></ion-icon>
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/1mmg0SRMxJo3_Xe9iYBGjCbZk49n3b0M8/view" aria-label="برنامج فاهم " target="_blank" rel="noopener noreferrer">
+                   <ion-icon name="reader" title="View Documentation"></ion-icon>
+                  </a>
+
+                  
+                </div>
+                <img src="./assets/images/Khayrocom.jpg" alt="Khayrocom Association" loading="lazy">
+              </figure>
+              <h3 class="project-title">Khayrocom Association</h3>
+              <div class="project-header">
+                <p class="project-category">Graphics Design</p>  
+                <h3 class="project-date"> 2015 - 2017</h3>
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <!--
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        -->
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
